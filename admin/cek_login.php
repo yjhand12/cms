@@ -14,7 +14,7 @@ session_start(); // Untuk memulai session
 // isi dari variabel session
 $_SESSION['namauser']=$r['id_user'];
 $_SESSION['passuser']=$r['password'];
-header('location:../config/form_berita.php'); // Buka hal input berita
+header('location:form_berita.php'); // Buka hal input berita
 }
 else{
 echo("Login gagal! username & password tidak benar<BR>");
