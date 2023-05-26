@@ -31,7 +31,7 @@ echo "</select></td></tr>
 <td> : <textarea name=isi_berita cols=80 rows=18>
 $r[isi_berita]</textarea></td></tr>
 <tr><td>Gambar</td>
-<td> : <img src='foto_berita/$r[gambar]'></td></tr>
+<td> : <img src='../admin/foto_berita/$r[gambar]'></td></tr>
 <tr><td>Ganti Gambar</td>
 <td> : <input type=file name=fupload size=40> *)</td></tr>
 <tr><td colspan=2>*) Apabila gambar tidak diubah,
