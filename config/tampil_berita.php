@@ -7,8 +7,8 @@ echo "<h2>Berita</h2>
 <input type=submit value='Tambah Berita'>
 </form>
 <table>
-<tr><th>no</th><th>judul</th><th>tgl. posting</th>
-<th>aksi</th></th></tr>";
+<tr><th>No</th><th>Judul</th><th>Tanggal Posting</th>
+<th>Aksi</th></th></tr>";
 $tampil=mysqli_query($con, "SELECT * FROM berita
 WHERE id_user='$_SESSION[namauser]'
 ORDER BY id_berita DESC");
